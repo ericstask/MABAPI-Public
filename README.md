@@ -1,6 +1,7 @@
 # KPI & Letters API – Internal Reporting and Email Export Service
 
 **KPI & Letters API** is a full-stack internal tool designed to expose reporting data and client email correspondence to internal services (such as Celery workers or internal dashboards). The application streams query results from MS SQL Server, including large volumes of email data, using paginated or newline-delimited (JSONL) output formats. It supports data export workflows like `.eml`-formatted zips of historical client correspondence.
+> All shared configuration/code examples were published with permission.
 
 ---
 
